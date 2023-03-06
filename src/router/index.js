@@ -4,6 +4,8 @@ import HomeView from '../views/HomeView.vue'
 import Login from '../components/Login.vue'
 import Register from '../components/Register.vue'
 import create from '../components/create.vue'
+import declaration from '../components/declaration.vue'
+
 
 Vue.use(VueRouter)
 

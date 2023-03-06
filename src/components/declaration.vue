@@ -1,4 +1,4 @@
-<template>
+
     <template>
   <v-card class="overflow-hidden">
     <v-app-bar
@@ -37,7 +37,7 @@
     >
       <v-app-bar-nav-icon></v-app-bar-nav-icon>
 
-      <v-toolbar-title>Page title</v-toolbar-title>
+      <v-toolbar-title>page title </v-toolbar-title>
 
       <v-spacer></v-spacer>
 
@@ -51,9 +51,9 @@
 
       <v-menu
         left
-        bottom
-      >
-        v-slot:activator="{ on, attrs }">
+        bottom>
+      
+     v-slot:activator="{ on, attrs }">
           <v-btn
             icon
             v-bind="attrs"
@@ -80,16 +80,17 @@
 </template>
 </template>
 <script>
-    var app
-export default{
-name:"declaration",
-data:() =>({
-    
 
-      collapseOnScroll: true,
-    
-})
+export default{
+  // eslint-disable-next-line vue/multi-word-component-names
+  name:"declaration",
+  data:() =>({
+    collapseOnScroll: true,
+
+  })
 }
+
+  
 </script>
 <style>
 
